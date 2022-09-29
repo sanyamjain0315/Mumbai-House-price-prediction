@@ -66,6 +66,7 @@ area=st.slider('Select the area',200,9000)
 x=[bedrooms,condition,gym,lift,parking,staff,security,play,club,intercom,garden,indoorgame,gas,track,pool,area]
 y=model.predict([x])
 if st.button('Predict'):
+  st.text('Price of the home in rupees is:')
   st.success(y[0])
 
   
