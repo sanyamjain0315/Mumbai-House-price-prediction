@@ -64,7 +64,7 @@ else:
   pool=0
 area=st.slider('Select the area',200,9000)
 x=[bedrooms,condition,gym,lift,parking,staff,security,play,club,intercom,garden,indoorgame,gas,track,pool,area]
-y=model.predict(x)
+y=model.predict([x])
 if st.button('Predict'):
   st.success(y[0])
 
