@@ -16,7 +16,7 @@ play=st.radio('Children play area:',('Yes','No'))
 club=st.radio('Clubhouse:',('Yes','No'))
 intercom=st.radio('Intercom:',('Yes','No'))
 garden=st.radio('Landscaped garden:',('Yes','No'))
-indoorgame=st.radio('Gym:',('Yes','No'))
+indoorgame=st.radio('Indoor games:',('Yes','No'))
 gas=st.radio('Indoor games:',('Yes','No'))
 track=st.radio('Jogging track:',('Yes','No'))
 pool=st.radio('Swimming pool:',('Yes','No'))
@@ -25,7 +25,3 @@ x=[bedrooms,condition,gym,lift,parking,staff,security,play,club,intercom,garden,
 y=model.predict([x])
 if st.button('Predict'):
   st.success(y[0])
-
-  
-  
-  
