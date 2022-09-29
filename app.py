@@ -26,6 +26,14 @@ if(st.radio('Maintenence staff:',('Yes','No'))=='Yes'):
    staff=1
 else:
    staff=0
+if(st.radio('24x7Security:',('Yes','No'))=='Yes'):
+   security=1
+else:
+   security=0
+if(st.radio('Play area:',('Yes','No'))=='Yes'):
+   play=1
+else:
+   play=0
 if(st.radio('Clubhouse:',('Yes','No'))=='Yes'):
   club=1
 else:
