@@ -25,3 +25,7 @@ x=[bedrooms,condition,gym,lift,parking,staff,security,play,club,intercom,garden,
 y=model.predict([x])
 if st.button('Predict'):
   st.success(y[0])
+
+  
+  
+  
