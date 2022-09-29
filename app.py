@@ -8,6 +8,7 @@ st.text('This model can predict the price of a house in Mumbai by accepting info
 bedrooms=st.slider('Select no. of bedrooms',1,10)
 condition=st.radio('Condition:',('New','Resale'))
 gym=st.radio('Gym:',('Yes','No'))
+print(type(gym))
 lift=st.radio('Lift available:',('Yes','No'))
 parking=st.radio('Parking available:',('Yes','No'))
 staff=st.radio('Maintenence staff:',('Yes','No'))
