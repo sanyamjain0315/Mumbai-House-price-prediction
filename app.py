@@ -23,9 +23,9 @@ if(st.radio('Parking available:',('Yes','No'))=='Yes'):
 else:
    parking=0
 if(st.radio('Maintenence staff:',('Yes','No'))=='Yes'):
-   play=1
+   staff=1
 else:
-   play=0
+   staff=0
 if(st.radio('Clubhouse:',('Yes','No'))=='Yes'):
   club=1
 else:
